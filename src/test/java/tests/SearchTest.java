@@ -22,6 +22,10 @@ public class SearchTest {
         navegador.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
     }
 
+    /*
+    * Cenário em que o usuário acessa a pagina do e-comerce
+    * e realiza a busca de um produto utilizando o campo de busca.
+    * */
     @Test
     public void buscarProdutoTest(){
 
@@ -36,7 +40,11 @@ public class SearchTest {
 
     }
 
-
+    /*
+     * Cenário em que o usuário acessa a pagina do e-comerce
+     * e realiza a busca utilizando a barra de navegação e clicando no departamneto
+     * especifico.
+     * */
     @Test
     public void buscarProdutoFLuxoAlternativoTeste(){
 
